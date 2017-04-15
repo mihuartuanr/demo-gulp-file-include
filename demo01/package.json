@@ -1,0 +1,17 @@
+{
+  "name": "gulpFileInclude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"gulp --gulpfile ./config/gulpfile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.1.0"
+  }
+}
