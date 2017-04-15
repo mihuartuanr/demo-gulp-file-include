@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"gulp --gulpfile ./config/gulpfile.js",
+    "start1":"gulp --gulpfile ./demo01/config/gulpfile.js",
+    "start2":"gulp --gulpfile ./demo02/config/gulpfile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

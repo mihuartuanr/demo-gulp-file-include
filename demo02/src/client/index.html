@@ -8,8 +8,17 @@
 
 <body>
   <div>
-    @@include('./include/header.html')
-    <section>这里是内容</section>
+    @@include('./include/header.html',{
+      "name":"横竖撇捺",
+      "socials": {
+        "qq": "qq.com/1100000",
+        "email": "email@163.com"
+      }
+    })
+    <section>
+      <p>这里是内容，@@name</p>
+      @@loop("./include/listItem.html", "../server/data.json")
+    </section>
     @@include('./include/footer.html')
   </div>
 </body>
